@@ -17,5 +17,6 @@ body{
 @media(min-width: 992px){
     .container{
     background-color: plum;
+    width: 960px;
     }
 }
