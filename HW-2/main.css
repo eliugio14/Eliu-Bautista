@@ -14,7 +14,7 @@ nav.navbar{
 nav.navbar a{
     font-size: 22px;
     text-decoration: none;
-    color: darkred;
+    color: orangered;
     line-height: 36px;
 }
 
@@ -26,11 +26,13 @@ nav.navbar ul{
 }
 
 nav.navbar li{
-    border-bottom: 2px solid darkred;
+   /* border-bottom: 3px solid grey; */
 }
-nav.navbar li:last-child{
-    border-bottom: none;
-}
+.active-link {
+    border-bottom: 2px solid rgb(177, 177, 177);
+    background-color: rgb(41, 41, 41);
+    }
+
 
 
 @media(min-width: 768px){
@@ -62,7 +64,7 @@ nav.navbar li:last-child{
         }
         li {
         float: left;
-        border-right:1px solid #bbb;
+        border-right:2px solid rgb(44, 44, 44);
         }
         li:last-child {
         border-right: none;
@@ -74,8 +76,6 @@ nav.navbar li:last-child{
         padding: 14px 16px;
         text-decoration: none;
         }
-        .active-link {
-        border-bottom: 2px solid rgb(177, 177, 177);
-        background-color: #4CAF50;
-        }
+
+        
 }
