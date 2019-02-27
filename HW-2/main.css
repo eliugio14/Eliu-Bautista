@@ -2,9 +2,9 @@ body{
     margin: 0px;
 }
 .container{
-    background-color: salmon;
+    background-color: lightgray;
     width: 100%; 
-    min-height: 300px;
+    min-height: 250px;
 }
 nav.navbar{
     background-color: rgb(56, 56, 56);
@@ -14,7 +14,7 @@ nav.navbar{
 nav.navbar a{
     font-size: 22px;
     text-decoration: none;
-    color: orangered;
+    color: rgb(137, 61, 199);
     line-height: 36px;
 }
 
@@ -32,22 +32,38 @@ nav.navbar li{
     border-bottom: 2px solid rgb(177, 177, 177);
     background-color: rgb(41, 41, 41);
     }
-
-
+    .img-container {
+        margin: auto;
+        width: 480px;
+        height: 668px;
+        background-size: cover;
+    }
+h1{
+    padding: 0px 7px;
+}
+p{
+    padding: 0px 7px;
+}
 
 @media(min-width: 768px){
     .container{
-        background-color: dodgerblue;
+        background-color:lightgray;
         width: 750px;
         margin: 0px auto;
     }
     nav .navbar li{
         display: inline-block;
     }
+    .img-container {
+        margin: auto;
+        width: 480px;
+        height: 668px;
+        background-size: cover;
+    }
 }
 @media(min-width: 992px){
     .container{
-    background-color: plum;
+    background-color: lightgray;
     width: 960px;
     }
     nav.navbar{
@@ -76,6 +92,11 @@ nav.navbar li{
         padding: 14px 16px;
         text-decoration: none;
         }
-
+        .img-container {
+            margin: auto;
+            width: 480px;
+            height: 668px;
+            background-size: cover;
+        }
         
 }

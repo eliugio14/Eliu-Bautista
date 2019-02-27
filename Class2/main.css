@@ -6,29 +6,29 @@ body{
     width: 100%; 
     min-height: 300px;
 }
-nav .navbar{
+nav.navbar{
     background-color: darkseagreen;
     width: 100%;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
-nav .navbar a{
+nav.navbar a{
     font-size: 22px;
     text-decoration: none;
     color: darkred;
-    line-height: 30px;
+    line-height: 36px;
 }
 
-nav .navbar ul{
+nav.navbar ul{
     list-style: none;
     padding-left: 0px;
     margin: 0px;
     text-align: center;
 }
 
-nav .navbar li{
+nav.navbar li{
     border-bottom: 2px solid darkred;
 }
-nav .navbar li:last-child{
+nav.navbar li:last-child{
     border-bottom: none;
 }
 
@@ -39,10 +39,14 @@ nav .navbar li:last-child{
         width: 750px;
         margin: 0px auto;
     }
+    nav .navbar li{
+        display: inline-block;
+    }
 }
 @media(min-width: 992px){
     .container{
     background-color: plum;
     width: 960px;
     }
+    
 }
