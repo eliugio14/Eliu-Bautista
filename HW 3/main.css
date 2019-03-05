@@ -1,5 +1,5 @@
-.container{
-    background-color: oldlace;
+body{
+    background-color: rgb(248, 207, 130);
 }
 
 .red{
@@ -34,14 +34,14 @@
 
 
 nav.navbar{
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(255, 208, 0);
     width: 100%;
     padding: 20px 0px;
 }
 nav.navbar a{
     font-size: 22px;
     text-decoration: none;
-    color: rgb(137, 61, 199);
+    color: rgb(0, 0, 0);
     line-height: 36px;
 }
 
@@ -53,9 +53,23 @@ nav.navbar ul{
 }
 
 .active-link {
-    border-bottom: 2px solid rgb(177, 177, 177);
-    background-color: rgb(41, 41, 41);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: rgb(204, 120, 10);
     }
+
+.container2{
+    background-color: rgb(255, 196, 0);
+    width: 100%; 
+    min-height: 250px;
+}
+
+h1{
+    padding: 0px 7px;
+    font-family: 'Condiment', cursive;
+}
+p{
+    padding: 0px 7px;
+}
 
 /******************* Small Scheen*/
 @media (min-width:450px){
@@ -74,6 +88,11 @@ nav.navbar ul{
 }
 /******************* Medium Scheen*/
 @media (min-width: 769px){
+    .container2{
+        background-color:rgb(255, 196, 0);
+        width: 750px;
+        margin: 0px auto;
+    }
     nav .navbar li{
         display: inline-block;
     }
@@ -93,8 +112,12 @@ nav.navbar ul{
 }
 /******************* Large Scheen*/
 @media (min-width:992px){
+    .container2{
+        background-color: rgb(255, 196, 0);
+        width: 960px;
+        }
     nav.navbar{
-        background-color: rgb(56, 56, 56);
+        background-color: rgb(255, 208, 0);
         width: 100%;
         padding: 20px 0px;
     }
@@ -103,11 +126,11 @@ nav.navbar ul{
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: rgb(56, 56, 56);
+        background-color: rgb(255, 196, 0);
         }
         li {
         float: left;
-        border-right:2px solid rgb(44, 44, 44);
+        border-right:2px solid rgb(255, 174, 0);
         }
         li:last-child {
         border-right: none;
