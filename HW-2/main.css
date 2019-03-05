@@ -32,12 +32,12 @@ nav.navbar li{
     border-bottom: 2px solid rgb(177, 177, 177);
     background-color: rgb(41, 41, 41);
     }
-    .img-container {
-        margin: auto;
-        width: 480px;
-        height: 668px;
-        background-size: cover;
-    }
+.img-container {
+    margin: auto;
+    width: 480px;
+    height: 668px;
+    background-size: cover;
+}
 h1{
     padding: 0px 7px;
 }
