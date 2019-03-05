@@ -1,0 +1,32 @@
+.container{
+    background-color: oldlace;
+}
+
+.red{
+    background-color: lightcoral;
+}
+.green{
+    background-color: lightgreen;
+}
+.blue{
+    background-color: lightblue;
+}
+.yellow{
+    background-color: lightgoldenrodyellow;
+}
+.cyan{
+    background-color: darkturquoise;
+}
+.purple{
+    background-color: plum;
+}
+
+.floater-section{
+    float: left;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.clearfix{
+    clear: both;
