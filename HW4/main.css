@@ -1,0 +1,164 @@
+body{
+    background-image: url(assets/images/cheese-bg.jpg) ;
+}
+
+.red{
+    background-color: rgb(240, 232, 128);
+}
+.green{
+    background-color: rgb(223, 184, 14);
+}
+.blue{
+    background-color: rgb(255, 196, 34);
+}
+.yellow{
+    background-color: rgb(250, 246, 210);
+}
+.cyan{
+    background-color: rgb(209, 178, 0);
+}
+.purple{
+    background-color: rgb(219, 188, 9);
+}
+
+.floater-section{
+    float: left;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+nav.navbar{
+    background-color: rgb(255, 208, 0);
+    width: 100%;
+    padding: 20px 0px;
+}
+nav.navbar a{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    line-height: 36px;
+}
+
+nav.navbar ul{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.active-link {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: rgb(204, 120, 10);
+    }
+.container{
+    font-family: 'Condiment', cursive;
+}
+.container2{
+    background-color: rgb(255, 196, 0);
+    width: 100%; 
+    min-height: 250px;
+}
+
+h1{
+    padding: 0px 15px;
+    padding-top: 15px;
+    font-family: 'Condiment', cursive;
+    height: 35px;
+    text-align: center;
+}
+p{
+    padding: 0px 7px;
+}
+
+/******************* Small Scheen*/
+@media (min-width:450px){
+    .small-width-25{
+        width: 25%;
+    }
+    .small-width-33{
+        width: 33.333%;
+    }
+    .small-width-50{
+        width: 50%;
+    }
+    .small-width-100{
+        width: 100%;
+    }
+}
+/******************* Medium Scheen*/
+@media (min-width: 769px){
+    .container2{
+        background-color:rgb(255, 196, 0);
+        width: 750px;
+        height: 440px;
+        margin: 0px auto;
+    }
+    nav .navbar li{
+        display: inline-block;
+    }
+    .medium-width-25{
+        width: 25%;
+    }
+    .medium-width-33{
+        width: 33.3333%;
+    }
+    .medium-width-50{
+        width: 50%;
+    }
+    .medium-width-100{
+        width: 100%;
+    }
+
+}
+/******************* Large Scheen*/
+@media (min-width:992px){
+    .container2{
+        background-color: rgb(255, 196, 0);
+        width: 960px;
+        height: 405px;
+        }
+    nav.navbar{
+        background-color: rgb(255, 208, 0);
+        width: 100%;
+        padding: 20px 0px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(255, 196, 0);
+        }
+        li {
+        float: left;
+        border-right:2px solid rgb(255, 174, 0);
+        }
+        li:last-child {
+        border-right: none;
+        }
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+    .large-width-25{
+        width: 25%;
+    }
+    .large-width-33{
+        width: 33.3333%;
+    }
+    .large-width-50{
+        width: 50%;
+    }
+    .large-width-100{
+        width: 100%;
+    }
+}
