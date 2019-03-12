@@ -78,7 +78,7 @@
         }
         li {
         float: left;
-        border-right:2px solid rgb(255, 174, 0);
+        border-right:2px solid rgb(102, 156, 238);
         }
         li:last-child {
         border-right: none;
