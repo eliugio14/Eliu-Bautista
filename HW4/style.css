@@ -1,0 +1,65 @@
+
+body{
+    background-color: rgb(143, 202, 236);
+    width: 100%;
+    margin: 0px;
+}
+.img-footer img{
+    max-width: 100%;
+}
+.img-footer{
+    min-height: 330px;
+}
+.content {
+    padding: 0px 10px;
+    min-height: 572px;
+    border-bottom: 2px solid purple;
+    position: relative;
+}
+
+.content .img-container {
+    min-height: 160px;
+}
+
+.content img{
+    max-width: 100%;
+}
+
+.content .abs{
+    position: absolute;
+}
+
+#jkrlap{
+    top: 30px;
+}
+
+#jkrtitle{
+    top:200px;
+    right: 30px;
+    color: whitesmoke;
+    text-shadow: 1px 0px 4px darkblue;
+}
+
+nav.navbar{
+    background-color: rgb(255, 208, 0);
+    width: 100%;
+    padding: 20px 0px;
+}
+nav.navbar a{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    line-height: 36px;
+}
+
+nav.navbar ul{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.active-link {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: rgb(204, 120, 10);
+    }
