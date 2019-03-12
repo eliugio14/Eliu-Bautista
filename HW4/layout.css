@@ -1,7 +1,7 @@
 /******************* container erase*/
 .container{
     margin: auto;
-    background-color: lemonchiffon;
+    background-color: rgb(85, 66, 57);
 }
 /******************* top to be erased*/
 
@@ -62,7 +62,7 @@
 /******************* Large Scheen*/
 @media (min-width:992px){
     .container{
-        width:960px;
+        width:100%;
     }
     nav.navbar{
         background-color: rgb(255, 208, 0);
