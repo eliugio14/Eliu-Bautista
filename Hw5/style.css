@@ -1,10 +1,12 @@
-
-.red {
-    background-color: lightcoral;
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+.smallbanner {
+    background-color:  rgb(56, 56, 56);;
 }
 
-.green {
-    background-color: lightgreen;
+.bigbanner {
+    background: url("assets/images/img1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blue {
@@ -30,11 +32,11 @@
 #vertCenter1,
 #vertCenter2,
 #vertHorizCenter1 {
-    height: 200px;
+    height: 900px;
 }
 
 #vertHorizCenter2 {
-    height: 400px;
+    height: 900px;
 }
 
 #vertCenter1 img {
@@ -51,22 +53,25 @@
     transform: translateY(-50%);
     margin: 0px; /* MARGINS affect the centering in this method! */
 }
-
+h2{
+    color: bisque;
+}
 #vertHorizCenter1 h2 {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    padding: 30px;
+    padding: 35px;
+    font-family: 'Fjalla One', sans-serif;
 
     /* Half the width accounting for padding and border */
     margin-left: -159px;
-    width: 258px;
+  
     
     /* Half the height accounting for padding and border */
     margin-top: -44px;
     height: 28px;
     
-    background-color: beige;
+    background-color: rgb(30, 120, 161);
 }
 
 #vertHorizCenter2 p {

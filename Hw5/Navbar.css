@@ -1,13 +1,15 @@
 nav.navbar{
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(30, 120, 161);
     width: 100%;
     padding: 20px 0px;
 }
 nav.navbar a{
     font-size: 22px;
     text-decoration: none;
-    color: rgb(137, 61, 199);
+    color: bisque;
     line-height: 36px;
+    font-family: 'quicksand', cursive;
+
 }
 
 nav.navbar ul{
@@ -34,8 +36,8 @@ nav.navbar li{
 }
 @media(min-width: 992px){
     nav.navbar{
-        background-color: rgb(56, 56, 56);
-        width: 100%;
+        background-color: rgb(30, 120, 161);
+        width: 100%;    
         padding: 20px 0px;
     }
     ul {

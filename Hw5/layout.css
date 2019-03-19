@@ -1,5 +1,9 @@
+
 body{
-    width: 100%;
+    max-width: 100%;
+    margin:0%;
+    padding: 0%;
+    background-color: rgb(30, 120, 161);   
 }
 .container {
     margin: auto;
@@ -28,7 +32,7 @@ body{
 /*************SMALL SCREENS********************/
 @media (min-width: 450px){
     .container {
-        width: 440px;
+        width: 100%;
     }
 
     .small-width-25 {
@@ -67,7 +71,7 @@ body{
 /*************MEDIUM SCREENS*******************/
 @media (min-width: 768px){
     .container {
-        width: 760px;
+        width: 100%;
     }
 
     .med-width-25 {
@@ -106,7 +110,7 @@ body{
 /*************LARGE SCREENS*******************/
 @media (min-width: 992px){
     .container {
-        width: 960px;
+        width: 100%;
     }
 
     .large-width-25 {
