@@ -32,11 +32,11 @@
 #vertCenter1,
 #vertCenter2,
 #vertHorizCenter1 {
-    height: 900px;
+    height: 851px;
 }
 
 #vertHorizCenter2 {
-    height: 900px;
+    height: 830px;
 }
 
 #vertCenter1 img {
@@ -55,6 +55,12 @@
 }
 h2{
     color: bisque;
+}
+.artists{
+    text-align: center;
+    color: bisque;
+    font-family: 'Fjalla One', sans-serif;
+
 }
 #vertHorizCenter1 h2 {
     position: absolute;
@@ -83,4 +89,7 @@ h2{
 
     margin: 0px;
     text-align: justify;
+    font-size: 25px;
+    font-family: 'quicksand', cursive;
+    color: bisque;
 }
