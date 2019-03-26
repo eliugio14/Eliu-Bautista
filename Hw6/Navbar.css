@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
+@media (min-width: 320px){
+
 html, body {
     overflow-x: hidden;
     height: 100%;
@@ -61,6 +63,7 @@ body {
     color: rgb(204, 0, 0);
     text-transform: uppercase;
     font-weight: bold;
+    font-family: 'Teko', sans-serif;
     padding: 20px;
     cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
@@ -148,53 +151,29 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform: rotate(-135deg);
     margin-top: -9px;
 }
-
-
-
-
-/*
-nav.navbar{
-    background-color: #ED1C24;
-    width: 100%;
-    padding: 20px 0px;
-}
-nav.navbar a{
-    font-size: 22px;
-    text-decoration: none;
-    color: bisque;
-    line-height: 36px;
-    font-family: 'Teko', sans-serif;
-
 }
 
-nav.navbar ul{
-    list-style: none;
-    padding-left: 0px;
-    margin: 0px;
-    text-align: center;
-}
 
-nav.navbar li{
-   // border-bottom: 3px solid grey; 
-}
-*/
-.active-link a {
-    border-bottom: 2px solid rgb(177, 177, 177);
-    background-color: rgb(41, 41, 41);
-}
 @media (min-width: 450px){
 }
 
 @media(min-width: 768px){
-    nav .navbar li{
+    #sidebarMenu{
         display: inline-block;
+        background-color: none;
+        width: 150%;
+        z-index: 9999;
+        background: none;
+        margin: auto;
+        padding: 0px 175px;
     }
-}
-@media(min-width: 992px){
+    .sidebarMenuInner li{
+        border-bottom: none;
+    }
     .sidebarMenuOuter{
-        background-color: #ED1C24;
+        background-color: #363636;
         width: 100%;    
-        padding: 10px 0px;
+        padding: 0px 0px;
     }
     ul {
         list-style-type: none;
@@ -202,13 +181,62 @@ nav.navbar li{
         padding: 0;
         overflow: hidden;
         background-color: rgb(56, 56, 56);
+        z-index: 9999
         }
         li {
         float: left;
         border-right:2px solid rgb(44, 44, 44);
+        z-index: 9999
         }
         li:last-child {
         border-right: none;
+        z-index: 9999
+        }
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 12px;
+        text-decoration: none;
+        z-index: 9999;
+        letter-spacing: 1px;
+        font-size: 24px;
+        }
+
+
+    }
+
+@media(min-width: 992px){
+    #sidebarMenu{
+        display: inline-block;
+        background-color: none;
+        width: 150%;
+        z-index: 9999;
+        background: none;
+        margin: auto;
+        padding: 0px 175px;
+    }
+    .sidebarMenuOuter{
+        background-color: #363636;
+        width: 100%;    
+        padding: 0px 0px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(56, 56, 56);
+        z-index: 9999
+        }
+        li {
+        float: left;
+        border-right:2px solid rgb(44, 44, 44);
+        z-index: 9999
+        }
+        li:last-child {
+        border-right: none;
+        z-index: 9999
         }
         li a {
         display: block;
@@ -216,12 +244,77 @@ nav.navbar li{
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        z-index: 9999;
+        letter-spacing: 2px;
+        font-size: 35px;
         }
-        .img-container {
-            margin: auto;
-            width: 480px;
-            height: 668px;
-            background-size: cover;
-        }
-        
+
+    .header {
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        box-shadow: none;
+        background-color: #363636;
+        position: fixed;
+        height: 80px!important;
+        overflow: hidden;
+        z-index: 9999;
+    }
 }
+@media(min-width: 1200px){
+    #sidebarMenu{
+        display: inline-block;
+        background-color: none;
+        width: 150%;
+        z-index: 9999;
+        background: none;
+        margin: auto;
+        padding: 0px 175px;
+    }
+    .sidebarMenuOuter{
+        background-color: #363636;
+        width: 100%;    
+        padding: 0px 0px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(56, 56, 56);
+        z-index: 9999
+        }
+        li {
+        float: left;
+        border-right:2px solid rgb(44, 44, 44);
+        z-index: 9999
+        }
+        li:last-child {
+        border-right: none;
+        z-index: 9999
+        }
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        z-index: 9999;
+        letter-spacing: 2px;
+        font-size: 35px;
+        }
+    .header {
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        box-shadow: none;
+        background-color: #363636;
+        position: fixed;
+        height: 80px!important;
+        overflow: hidden;
+        z-index: 9999;
+    }
+}
+

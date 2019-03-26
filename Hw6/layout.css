@@ -3,7 +3,7 @@ body{
     max-width: 100%;
     margin:0%;
     padding: 0%;
-    background-color: #363636;   
+    background-color: rgb(30, 120, 161);   
 }
 .container {
     margin: auto;
@@ -28,6 +28,44 @@ body{
 .clearfix {
     clear: both;
 }
+@media (min-width: 320px){
+    .container {
+        width: 100%;
+    }
+
+    .small-width-25 {
+        width: 25%;
+    }
+    
+    .small-width-33 {
+        width: 33.3333%;
+    }
+    
+    .small-width-50 {
+        width: 50%;
+    }
+
+    .small-width-66 {
+        width: 66.6666%
+    }
+
+    .small-width-75 {
+        width: 75%;
+    }
+
+    .small-width-100 {
+        width: 100%;
+    }
+
+    .small-hide {
+        display: hide;
+    }
+
+    .small-show {
+        display: initial;
+    }
+} 
+
 
 /*************SMALL SCREENS********************/
 @media (min-width: 450px){
@@ -145,3 +183,52 @@ body{
         display: initial;
     }
 }
+
+/*************X-LARGE SCREENS*******************/
+@media (min-width: 992px){
+    .container {
+        width: 100%;
+    }
+
+    .xlarge-width-25 {
+        width: 25%;
+    }
+    
+    .xlarge-width-33 {
+        width: 33.33333%;
+    }
+
+    .xlarge-width-50 {
+        width: 50%;
+    }
+    
+    .xlarge-width-66 {
+        width: 66.6666%
+    }
+
+    .xlarge-width-75 {
+        width: 75%;
+    }
+
+    .xlarge-width-100 {
+        width: 100%;
+    }
+
+    .xlarge-hide {
+        display: hide;
+    }
+
+    .xlarge-show {
+        display: initial;
+    }
+}
+.floater-section, img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    }
+img{
+    width: 100%;
+    object-fit: contain;
+    float: left;
+    }

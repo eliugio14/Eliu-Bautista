@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
-.smallbanner {
+.drkgrey {
     background-color:  rgb(56, 56, 56);;
 }
 
-.bigbanner {
-    background: url("assets/images/img1.jpg"); 
+.bigbanner { 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -94,8 +93,4 @@ h2{
     color: bisque;
 }
 
-img{
-    width: 25%;
-    object-fit: contain;
-    float: left;
-    }
+    /* Content Start */
