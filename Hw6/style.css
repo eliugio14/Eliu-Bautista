@@ -94,3 +94,51 @@ h2{
 }
 
     /* Content Start */
+/* START CONTACT*/
+.message{
+    font-family: 'Sedgwick Ave', cursive;
+    color: rgb(158, 12, 12);
+    }
+    .general{
+    font-family: 'Sedgwick Ave', cursive;
+    }
+    
+    .container2 {
+    margin: auto;
+    font-family: 'Questrial', sans-serif;
+    width: 600px;
+    background-color: white;
+    position: relative;
+    top: -115px;
+    padding: 236px 1px 1px;
+    left: 25px;
+    border: solid black 7px 0px 0px 0px;
+    }
+    .message, .general{
+        color: red;
+        font-family: 'Teko', sans-serif;
+    }
+    .form input #Additionalinfo{
+    resize: vertical;
+    }
+    .form-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 6px 0px 6px 0px;
+    }
+    .label {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    }
+    fieldset {
+    border: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+    }
+    input[type="color"]{
+    min-height: 40px;
+    }
+    /*END CONTACT*/
