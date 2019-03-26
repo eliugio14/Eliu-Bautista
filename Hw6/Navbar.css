@@ -191,7 +191,7 @@ nav.navbar li{
     }
 }
 @media(min-width: 992px){
-    nav.navbar{
+    .sidebarMenuOuter{
         background-color: #ED1C24;
         width: 100%;    
         padding: 10px 0px;

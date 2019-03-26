@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+@media (min-width: 320px){
+
 html, body {
     overflow-x: hidden;
     height: 100%;
@@ -146,4 +149,113 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     box-sizing: border-box;
     transform: rotate(-135deg);
     margin-top: -9px;
+}
+}
+
+
+
+
+
+@media (min-width: 450px){
+}
+
+@media(min-width: 768px){
+    #sidebarMenu{
+        display: inline-block;
+        background-color: none;
+        width: 150%;
+        z-index: 9999;
+        background: none;
+        margin: auto;
+        padding: 0px 140px;
+    }
+    .sidebarMenuInner li{
+        border-bottom: none;
+    }
+    .sidebarMenuOuter{
+        background-color: #363636;
+        width: 100%;    
+        padding: 10px 0px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(56, 56, 56);
+        z-index: 9999
+        }
+        li {
+        float: left;
+        border-right:2px solid rgb(44, 44, 44);
+        z-index: 9999
+        }
+        li:last-child {
+        border-right: none;
+        z-index: 9999
+        }
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        z-index: 9999
+        }
+    
+
+    }
+
+@media(min-width: 992px){
+    #sidebarMenu{
+        display: inline-block;
+        background-color: none;
+        width: 150%;
+        z-index: 9999;
+        background: none;
+        margin: auto;
+        padding: 0px 140px;
+    }
+    .sidebarMenuOuter{
+        background-color: #363636;
+        width: 100%;    
+        padding: 10px 0px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(56, 56, 56);
+        z-index: 9999
+        }
+        li {
+        float: left;
+        border-right:2px solid rgb(44, 44, 44);
+        z-index: 9999
+        }
+        li:last-child {
+        border-right: none;
+        z-index: 9999
+        }
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        z-index: 9999
+        }
+    .header {
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        box-shadow: none;
+        background-color: #363636;
+        position: fixed;
+        height: 80px!important;
+        overflow: hidden;
+        z-index: 9999;
+    }
 }
