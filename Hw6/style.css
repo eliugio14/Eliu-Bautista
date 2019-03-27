@@ -4,8 +4,9 @@
 }
 
 .bigbanner { 
+    background: url("assets/images/img2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain; 
 }
 
 .blue {
@@ -53,7 +54,7 @@
     margin: 0px; /* MARGINS affect the centering in this method! */
 }
 h2{
-    color: bisque;
+    color: White;
 }
 .artists{
     text-align: center;
@@ -76,7 +77,6 @@ h2{
     margin-top: -44px;
     height: 28px;
     
-    background-color: rgb(30, 120, 161);
 }
 
 #vertHorizCenter2 p {
@@ -90,12 +90,12 @@ h2{
     text-align: justify;
     font-size: 25px;
     font-family: 'quicksand', cursive;
-    color: bisque;
+    color: white;
 }
 
     /* Content Start */
 /* START CONTACT*/
-.message{
+    .message{
     font-family: 'Sedgwick Ave', cursive;
     color: rgb(158, 12, 12);
     }

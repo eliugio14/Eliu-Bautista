@@ -222,13 +222,3 @@ body{
         display: initial;
     }
 }
-.floater-section, img{
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    }
-img{
-    width: 100%;
-    object-fit: contain;
-    float: left;
-    }
