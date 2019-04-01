@@ -7,7 +7,7 @@ html, body {
     height: 100%;
 }
 body {
-    background: #fff;
+ 
     padding: 0;
     margin: 0;
     font-family: 'Varela Round', sans-serif;
@@ -69,7 +69,6 @@ body {
     cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
-
 .sidebarMenuInner li span{
     display: block;
     font-size: 14px;
@@ -82,9 +81,6 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
-
-
-
 input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
 }
@@ -159,6 +155,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 @media(min-width: 768px){
+    html, body {
+        height: 1500px;
+    }
+    input[type="checkbox"]:checked ~ #sidebarMenu {
+        padding: 0;
+        transform: none;
+    }
     #sidebarMenu{
         display: inline-block;
         background-color: none;
@@ -166,10 +169,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         z-index: 9999;
         background: none;
         margin: auto;
-        padding: 0px 175px;
+        padding: 0px 250px;
+       
     }
     .sidebarMenuInner li{
         border-bottom: none;
+        height: 35px;
     }
     .sidebarMenuOuter{
         background-color: #363636;
@@ -184,30 +189,36 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         background-color: rgb(56, 56, 56);
         z-index: 9999
         }
-        li {
-        float: left;
-        border-right:2px solid rgb(44, 44, 44);
-        z-index: 9999
-        }
-        li:last-child {
-        border-right: none;
-        z-index: 9999
-        }
-        li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 0px 12px;
-        text-decoration: none;
-        z-index: 9999;
-        letter-spacing: 1px;
-        font-size: 24px;
-        }
+    #logo{
+        padding: -1px 20px -1px 20px;
+    }
+    li {
+    float: left;
+    border-right:2px solid rgb(44, 44, 44);
+    z-index: 9999
+    }
+    li:last-child {
+    border-right: none;
+    z-index: 9999
+    }
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 12px;
+    text-decoration: none;
+    z-index: 9999;
+    letter-spacing: 1px;
+    font-size: 24px;
+    }
 
 
     }
 
 @media(min-width: 992px){
+    html, body {
+        height: 1200px;
+    }
     #sidebarMenu{
         display: inline-block;
         background-color: none;
@@ -215,7 +226,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         z-index: 9999;
         background: none;
         margin: auto;
-        padding: 0px 175px;
+        padding: 0px 250px;
+    }
+    .sidebarMenuInner li{
+        border-bottom: none;
+        height: 65px;
     }
     .sidebarMenuOuter{
         background-color: #363636;
@@ -230,6 +245,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         background-color: rgb(56, 56, 56);
         z-index: 9999
         }
+    #logo{
+        padding: 40px 20px 0 20px;
+        }
+
         li {
         float: left;
         border-right:2px solid rgb(44, 44, 44);
@@ -262,6 +281,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         overflow: hidden;
         z-index: 9999;
     }
+
 }
 @media(min-width: 1200px){
     #sidebarMenu{
@@ -271,7 +291,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         z-index: 9999;
         background: none;
         margin: auto;
-        padding: 0px 175px;
+        padding: 0px 250px;
     }
     .sidebarMenuOuter{
         background-color: #363636;
@@ -285,26 +305,29 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         overflow: hidden;
         background-color: rgb(56, 56, 56);
         z-index: 9999
+    }
+    #logo{
+        padding: 40px 20px 0 20px;
         }
-        li {
-        float: left;
-        border-right:2px solid rgb(44, 44, 44);
-        z-index: 9999
-        }
-        li:last-child {
-        border-right: none;
-        z-index: 9999
-        }
-        li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        z-index: 9999;
-        letter-spacing: 2px;
-        font-size: 35px;
-        }
+    li {
+    float: left;
+    border-right:2px solid rgb(44, 44, 44);
+    z-index: 9999
+    }
+    li:last-child {
+    border-right: none;
+    z-index: 9999
+    }
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 9999;
+    letter-spacing: 2px;
+    font-size: 35px;
+    }
     .header {
         display: inline-block;
         margin: 0 auto;

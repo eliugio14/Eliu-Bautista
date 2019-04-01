@@ -1,323 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
-
-@media (min-width: 320px){
-
-html, body {
-    overflow-x: hidden;
-    height: 100%;
-}
-body {
-    background: #fff;
-    padding: 0;
-    margin: 0;
-    font-family: 'Varela Round', sans-serif;
-}
-.header {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-    box-shadow: none;
-    background-color: #363636;
-    position: fixed;
-    height: 60px!important;
-    overflow: hidden;
-    z-index: 10;
-}
-.main {
-    margin: 0 auto;
-    display: block;
-    height: 100%;
-    margin-top: 60px;
-}
-.mainInner{
-    display: table;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
-.mainInner div{
-    display:table-cell;
-    vertical-align: middle;
-    font-size: 3em;
-    font-weight: bold;
-    letter-spacing: 1.25px;
-}
-#sidebarMenu {
-    height: 100%;
-    position: fixed;
-    left: 0;
-    width: 250px;
-    margin-top: 60px;
-    transform: translateX(-250px);
-    transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg,  #363636 0%,  rgb(128, 128, 128) 100%);
-}
-.sidebarMenuInner{
-    margin:0;
-    padding:0;
-    border-top: 1px solid rgba(255, 255, 255, 0.10);
-}
-.sidebarMenuInner li {
-    list-style: none;
-    color: rgb(204, 0, 0);
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Teko', sans-serif;
-    padding: 20px;
-    cursor: pointer;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+.container{
+    background-color: oldlace;
 }
 
-.sidebarMenuInner li span{
-    display: block;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.50);
+.red{
+    background-color: lightcoral;
 }
-.sidebarMenuInner li a{
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
+.green{
+    background-color: lightgreen;
+}
+.blue{
+    background-color: lightblue;
+}
+.yellow{
+    background-color: lightgoldenrodyellow;
+}
+.cyan{
+    background-color: darkturquoise;
+}
+.purple{
+    background-color: plum;
 }
 
-
-
-input[type="checkbox"]:checked ~ #sidebarMenu {
-    transform: translateX(0);
-}
-
-input[type=checkbox] {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    display: none;
-}
-.sidebarIconToggle {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    cursor: pointer;
-    position: absolute;
-    z-index: 99;
-    height: 100%;
-    width: 100%;
-    top: 22px;
-    left: 15px;
-    height: 22px;
-    width: 22px;
-}
-.spinner {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    background-color: #fff;
-}
-.horizontal {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    position: relative;
+.floater-section{
     float: left;
-    margin-top: 3px;
-}
-.diagonal.part-1 {
-    position: relative;
-    transition: all 0.3s;
-    box-sizing: border-box;
-    float: left;
-}
-.diagonal.part-2 {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    position: relative;
-    float: left;
-    margin-top: 3px;
-}
-input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    opacity: 0;
-}
-input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    transform: rotate(135deg);
-    margin-top: 8px;
-}
-input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
-    transition: all 0.3s;
-    box-sizing: border-box;
-    transform: rotate(-135deg);
-    margin-top: -9px;
-}
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
 }
 
-
-@media (min-width: 450px){
+.clearfix{
+    clear: both;
 }
-
-@media(min-width: 768px){
-    #sidebarMenu{
-        display: inline-block;
-        background-color: none;
-        width: 150%;
-        z-index: 9999;
-        background: none;
-        margin: auto;
-        padding: 0px 175px;
+/******************* Small Scheen*/
+@media (min-width:450px){
+    .small-width-25{
+        width: 25%;
     }
-    .sidebarMenuInner li{
-        border-bottom: none;
+    .small-width-33{
+        width: 33.333%;
     }
-    .sidebarMenuOuter{
-        background-color: #363636;
-        width: 100%;    
-        padding: 0px 0px;
+    .small-width-50{
+        width: 50%;
     }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(56, 56, 56);
-        z-index: 9999
-        }
-        li {
-        float: left;
-        border-right:2px solid rgb(44, 44, 44);
-        z-index: 9999
-        }
-        li:last-child {
-        border-right: none;
-        z-index: 9999
-        }
-        li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 0px 12px;
-        text-decoration: none;
-        z-index: 9999;
-        letter-spacing: 1px;
-        font-size: 24px;
-        }
-
-
-    }
-
-@media(min-width: 992px){
-    #sidebarMenu{
-        display: inline-block;
-        background-color: none;
-        width: 150%;
-        z-index: 9999;
-        background: none;
-        margin: auto;
-        padding: 0px 175px;
-    }
-    .sidebarMenuOuter{
-        background-color: #363636;
-        width: 100%;    
-        padding: 0px 0px;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(56, 56, 56);
-        z-index: 9999
-        }
-        li {
-        float: left;
-        border-right:2px solid rgb(44, 44, 44);
-        z-index: 9999
-        }
-        li:last-child {
-        border-right: none;
-        z-index: 9999
-        }
-        li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        z-index: 9999;
-        letter-spacing: 2px;
-        font-size: 35px;
-        }
-
-    .header {
-        display: inline-block;
-        margin: 0 auto;
+    .small-width-100{
         width: 100%;
-        max-width: 100%;
-        box-shadow: none;
-        background-color: #363636;
-        position: fixed;
-        height: 80px!important;
-        overflow: hidden;
-        z-index: 9999;
     }
 }
-@media(min-width: 1200px){
-    #sidebarMenu{
-        display: inline-block;
-        background-color: none;
-        width: 150%;
-        z-index: 9999;
-        background: none;
-        margin: auto;
-        padding: 0px 175px;
+/******************* Medium Scheen*/
+@media (min-width: 769px){
+    .medium-width-25{
+        width: 25%;
     }
-    .sidebarMenuOuter{
-        background-color: #363636;
-        width: 100%;    
-        padding: 0px 0px;
+    .medium-width-33{
+        width: 33.3333%;
     }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(56, 56, 56);
-        z-index: 9999
-        }
-        li {
-        float: left;
-        border-right:2px solid rgb(44, 44, 44);
-        z-index: 9999
-        }
-        li:last-child {
-        border-right: none;
-        z-index: 9999
-        }
-        li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        z-index: 9999;
-        letter-spacing: 2px;
-        font-size: 35px;
-        }
-    .header {
-        display: inline-block;
-        margin: 0 auto;
+    .medium-width-50{
+        width: 50%;
+    }
+    .medium-width-100{
         width: 100%;
-        max-width: 100%;
-        box-shadow: none;
-        background-color: #363636;
-        position: fixed;
-        height: 80px!important;
-        overflow: hidden;
-        z-index: 9999;
+    }
+
+}
+/******************* Large Scheen*/
+@media (min-width:992px){
+    .large-width-25{
+        width: 25%;
+    }
+    .large-width-33{
+        width: 33.3333%;
+    }
+    .large-width-50{
+        width: 50%;
+    }
+    .large-width-100{
+        width: 100%;
     }
 }
-/*End Nav*/
-
-/*End style layout*/
-

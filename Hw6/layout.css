@@ -1,38 +1,47 @@
 
 body{
     max-width: 100%;
-    margin:0%;
-    padding: 0%;
     background-color: rgb(30, 120, 161);   
 }
-.container {
-    margin: auto;
-    background-color: lemonchiffon;
+.container-content{
+    background-color: rgb(39, 39, 39);
+    padding: 106px 0px 0px 0px;
 }
 
-.floater-section {
+.red{
+    background-color: lightcoral;
+}
+.green{
+    background-color: lightgreen;
+}
+.blue{
+    background-color: lightblue;
+}
+.yellow{
+    background-color: lightgoldenrodyellow;
+}
+.cyan{
+    background-color: darkturquoise;
+}
+.purple{
+    background-color: plum;
+}
+.floater-section{
     float: left;
     width: 100%;
-    min-height: 200px;
+    min-height: 600px;
     margin-bottom: 20px;
 }
-
-.hide {
-    display: hide;
-}
-
-.show {
-    display: initial;
-}
-
 .clearfix {
     clear: both;
 }
+.hide {
+    display: hide;
+}
+.show {
+    display: initial;
+}
 @media (min-width: 320px){
-    .container {
-        width: 100%;
-    }
-
     .small-width-25 {
         width: 25%;
     }
@@ -69,10 +78,9 @@ body{
 
 /*************SMALL SCREENS********************/
 @media (min-width: 450px){
-    .container {
-        width: 100%;
+    .container-content{
+    padding: 60px 0px 0px 0px;
     }
-
     .small-width-25 {
         width: 25%;
     }
@@ -108,31 +116,30 @@ body{
 
 /*************MEDIUM SCREENS*******************/
 @media (min-width: 768px){
-    .container {
-        width: 100%;
-    }
-
-    .med-width-25 {
+    .container-content{
+        padding: 76px 0px 0px 0px;
+        }
+    .medium-width-25 {
         width: 25%;
     }
     
-    .med-width-33 {
+    .medium-width-33 {
         width: 33.3333%;
     }
 
-    .med-width-50 {
+    .medium-width-50 {
         width: 50%;
     }
 
-    .med-width-66 {
+    .medium-width-66 {
         width: 66.6666%
     }
 
-    .med-width-75 {
+    .medium-width-75 {
         width: 75%;
     }
 
-    .med-width-100 {
+    .medium-width-100 {
         width: 100%;
     }
 
@@ -147,10 +154,9 @@ body{
 
 /*************LARGE SCREENS*******************/
 @media (min-width: 992px){
-    .container {
-        width: 100%;
-    }
-
+    .container-content{
+        padding: 106px 0px 0px 0px;
+        }
     .large-width-25 {
         width: 25%;
     }
@@ -185,11 +191,7 @@ body{
 }
 
 /*************X-LARGE SCREENS*******************/
-@media (min-width: 992px){
-    .container {
-        width: 100%;
-    }
-
+@media (min-width: 1200px){
     .xlarge-width-25 {
         width: 25%;
     }
