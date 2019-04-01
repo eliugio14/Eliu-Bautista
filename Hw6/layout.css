@@ -5,11 +5,12 @@ body{
 }
 .container-content{
     background-color: rgb(39, 39, 39);
-    padding: 106px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
 }
 
 .red{
-    background-color: lightcoral;
+    background: url("/assets/images/homeimg2.jpg");
+    background-size: contain;
 }
 .green{
     background-color: lightgreen;
