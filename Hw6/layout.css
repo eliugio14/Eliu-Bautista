@@ -9,8 +9,7 @@ body{
 }
 
 .red{
-    background: url("/assets/images/homeimg2.jpg");
-    background-size: contain;
+    background: red;
 }
 .green{
     background-color: lightgreen;

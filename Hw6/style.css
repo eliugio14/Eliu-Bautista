@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+.image-content {
+    padding: 0px 0px;
+    border-bottom: 2px solid purple;
+    position: relative;
+}
+
+.image-content .img-container2 {
+    min-height: 160px;
+}
+
+.image-content img{
+    max-width: 100%;
+}
 
 
     /* Content Start */
