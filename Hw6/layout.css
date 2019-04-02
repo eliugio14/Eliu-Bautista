@@ -1,7 +1,52 @@
+/*Pix-content start*/
+#jumpin{
+    background-image: url(assets/images/450/1-1.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+#fierce{
+    background-image: url(assets/images/450/2.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+#punch{
+    background-image: url(assets/images/450/3-3.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+#prep{
+    background-image: url(assets/images/450/4.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+#train{
+    background-image: url(assets/images/320/5.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+#tame{
+    background-image: url(assets/images/320/6.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Pix-content end*/
 
 body{
     max-width: 100%;
-    background-color: rgb(30, 120, 161);   
+    background-color: #242424;
 }
 .container-content{
     background-color: rgb(39, 39, 39);
@@ -41,6 +86,35 @@ body{
 .show {
     display: initial;
 }
+#trainer{
+    margin: auto;
+    text-align: center;
+    padding: 136px 0 0 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 300%;
+    color: darkred;
+    text-transform: uppercase;
+}
+p{
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 515px 0 0 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 300%;
+    color: darkred;
+    text-transform: uppercase;
+}
+.train2-quote{
+    margin: auto;
+    text-align: left;
+    color: white;
+    padding: 75px 15px 0 145px;
+    font-family: 'Teko', sans-serif;
+    font-size: 250%;
+}
+
+
 @media (min-width: 320px){
     .small-width-25 {
         width: 25%;
@@ -74,12 +148,96 @@ body{
         display: initial;
     }
 } 
-
+.line-h{
+    padding: 0 0 0px;
+    height: 0px;
+    width: 300px;
+    border-bottom: 3px solid darkred;
+}
+.about-oscb{
+    font-family: 'Teko', sans-serif;
+    color: darkred;
+    padding: 65px 0px 0px 17px;
+    margin: 0;
+    height: 30px;
+    top: 37px;
+}
+#about-content{
+    padding: 11px 10px 0px 10px;
+    text-align: left;
+    color: white;
+    font-size: 100%;
+    text-transform: none;
+    height: 215px;
+}
 
 /*************SMALL SCREENS********************/
 @media (min-width: 450px){
+    .about-oscb{
+        font-family: 'Teko', sans-serif;
+        color: darkred;
+        padding: 65px 0px 0px 17px;
+        margin: 0;
+        height: 30px;
+        top: 37px;
+    }
+    #about-content{
+        padding: 11px 10px 0px 10px;
+        text-align: left;
+        color: white;
+        font-size: 100%;
+        text-transform: none;
+        height: 125px;
+    }
+    #trainer{
+        margin: auto;
+        text-align: center;
+        padding: 210px 0 0 0;
+        font-family: 'Teko', sans-serif;
+        font-size: 300%;
+        color: darkred;
+        text-transform: uppercase;
+    }
+    p{
+        margin: auto;
+        text-align: center;
+        color: white;
+        padding: 515px 0 0 0;
+        font-family: 'Teko', sans-serif;
+        font-size: 300%;
+        color: darkred;
+        text-transform: uppercase;
+    }
+    .train2-quote{
+        width:50%;
+        margin: auto;
+        text-align: left;
+        color: white;
+        padding: 75px 15px 0 145px;
+        font-family: 'Teko', sans-serif;
+        font-size: 250%;
+    }
+    /*Pix-content start*/
+    #train{
+        background-image: url(assets/images/450/5.jpg);
+        background-repeat: no-repeat;
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+    #tame{
+        background-image: url(assets/images/450/6.jpg);
+        background-repeat: no-repeat;
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    /*Pix-content end*/
+
     .container-content{
     padding: 60px 0px 0px 0px;
+    width: 100%;
     }
     .small-width-25 {
         width: 25%;
@@ -114,10 +272,81 @@ body{
     }
 }
 
+
 /*************MEDIUM SCREENS*******************/
 @media (min-width: 768px){
+    .about-oscb{
+        font-family: 'Teko', sans-serif;
+        color: darkred;
+        padding: 90px 0px 0px 25px;
+        margin: 0;
+        height: 30px;
+        top: 37px;
+    }
+    #about-content{
+        padding: 11px 25px 0px 25px;
+        text-align: left;
+        color: white;
+        font-size: 100%;
+        text-transform: none;
+        height: 40px;
+    }
+    #trainer{
+        margin: auto;
+        text-align: center;
+        padding: 80px 0 0 0;
+        font-family: 'Teko', sans-serif;
+        font-size: 300%;
+        color: darkred;
+        text-transform: uppercase;
+    }
+    p{
+        margin: auto;
+        text-align: center;
+        color: white;
+        padding: 515px 0 0 0;
+        font-family: 'Teko', sans-serif;
+        font-size: 300%;
+        color: darkred;
+        text-transform: uppercase;
+    }
+    .train2-quote{
+        width:50%;
+        margin: auto;
+        text-align: center;
+        color: white;
+        padding: 86px 190px 0 190px;
+        font-family: 'Teko', sans-serif;
+        font-size: 381%;
+    }
+    /*Pix-content start*/
+    #prep{
+        background-image: url(assets/images/768/4.jpg);
+        background-repeat: no-repeat;
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+    #train{
+        background-image: url(assets/images/768/5.jpg);
+        background-repeat: no-repeat;
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+    #tame{
+        background-image: url(assets/images/768/6.jpg);
+        background-repeat: no-repeat;
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    /*Pix-content end*/
     .container-content{
         padding: 76px 0px 0px 0px;
+        position: absolute;
+        width: 100%;
         }
     .medium-width-25 {
         width: 25%;
@@ -154,6 +383,15 @@ body{
 
 /*************LARGE SCREENS*******************/
 @media (min-width: 992px){
+    /*Pix-content end*/
+    #tame{
+        background-image: url(assets/images/992/6.jpg);
+        background-repeat: no-repeat;
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+    /*Pix-content end*/
     .container-content{
         padding: 106px 0px 0px 0px;
         }
