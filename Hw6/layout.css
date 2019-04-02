@@ -383,6 +383,22 @@ p{
 
 /*************LARGE SCREENS*******************/
 @media (min-width: 992px){
+    .about-oscb{
+        font-family: 'Teko', sans-serif;
+        color: darkred;
+        padding: 120px 0px 0px 25px;
+        margin: 0;
+        height: 30px;
+        top: 37px;
+    }
+    #about-content{
+        padding: 11px 25px 0px 25px;
+        text-align: left;
+        color: white;
+        font-size: 100%;
+        text-transform: none;
+        height: 40px;
+    }
     /*Pix-content end*/
     #tame{
         background-image: url(assets/images/992/6.jpg);
