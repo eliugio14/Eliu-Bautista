@@ -13,15 +13,14 @@
 }
 /*IMAGE ENDS*/
 /* START CONTACT Promotion*/
-    .message{
+.message{
     font-family: 'Sedgwick Ave', cursive;
     color: rgb(158, 12, 12);
-    }
-    .general{
+}
+.general{
     font-family: 'Sedgwick Ave', cursive;
-    }
-    
-    .container2 {
+} 
+.container2 {
     margin: auto;
     font-family: 'Questrial', sans-serif;
     width: 600px;
@@ -31,32 +30,32 @@
     padding: 236px 1px 1px;
     left: 25px;
     border: solid black 7px 0px 0px 0px;
-    }
-    .message, .general{
+}
+.message, .general{
         color: darkred;
         font-family: 'Teko', sans-serif;
-    }
-    .form input #Additionalinfo{
+}
+.form input #Additionalinfo{
     resize: vertical;
-    }
-    .form-input {
+}
+.form-input {
     display: block;
     width: 100%;
     margin-bottom: 20px;
     padding: 6px 0px 6px 0px;
-    }
-    .label {
+}
+.label {
     display: inline-block;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 12px;
-    }
-    fieldset {
+}
+fieldset {
     border: 0px;
     padding: 0px;
     margin-bottom: 20px;
-    }
-    input[type="color"]{
+}
+input[type="color"]{
     min-height: 40px;
-    }
+}
     /*END CONTACT Promotion*/

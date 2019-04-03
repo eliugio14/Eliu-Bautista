@@ -10,6 +10,7 @@ body {
     max-width: 100%;
     background-color: white;
 }
+/*Pix-content start*/
 #jumpin{
     background-image: url(assets/images/450/1-1.jpg);
     background-repeat: no-repeat;
@@ -54,13 +55,10 @@ body {
 }
 
 /*Pix-content end*/
-
-
 .container-content{
     background-color: rgb(39, 39, 39);
     padding: 60px 0px 0px 0px;
 }
-
 .red{
     background: red;
 }
@@ -190,296 +188,296 @@ p{
 
 /*************SMALL SCREENS END**************************************************************************************/
 @media (min-width: 450px){
-    .about-oscb{
-        font-family: 'Teko', sans-serif;
-        color: darkred;
-        padding: 65px 0px 0px 17px;
-        margin: 0;
-        height: 30px;
-        top: 37px;
-    }
-    #about-content{
-        padding: 11px 60px 0px 60px;
-        height: 190px;
-    }
-    #trainer{
-        margin: auto;
-        text-align: center;
-        padding: 210px 0 0 0;
-        font-family: 'Teko', sans-serif;
-        font-size: 300%;
-        color: darkred;
-        text-transform: uppercase;
-    }
-    p{
-        margin: auto;
-        text-align: center;
-        color: white;
-        padding: 515px 0 0 0;
-        font-family: 'Teko', sans-serif;
-        font-size: 300%;
-        color: darkred;
-        text-transform: uppercase;
-    }
-    .train2-quote{
-        width:50%;
-        margin: auto;
-        text-align: left;
-        color: white;
-        padding: 75px 15px 0 145px;
-        font-family: 'Teko', sans-serif;
-        font-size: 250%;
-    }
-    /*Pix-content start*/
-    #train{
-        background-image: url(assets/images/450/5.jpg);
-        background-repeat: no-repeat;
-        min-height: 600px;
-        background-size: cover;
-        background-position: center;
-    }
-    #tame{
-        background-image: url(assets/images/450/6.jpg);
-        background-repeat: no-repeat;
-        min-height: 600px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    /*Pix-content end*/
+.about-oscb{
+    font-family: 'Teko', sans-serif;
+    color: darkred;
+    padding: 65px 0px 0px 17px;
+    margin: 0;
+    height: 30px;
+    top: 37px;
+}
+#about-content{
+    padding: 11px 60px 0px 60px;
+    height: 190px;
+}
+#trainer{
+    margin: auto;
+    text-align: center;
+    padding: 210px 0 0 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 300%;
+    color: darkred;
+    text-transform: uppercase;
+}
+p{
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 515px 0 0 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 300%;
+    color: darkred;
+    text-transform: uppercase;
+}
+.train2-quote{
+    width:50%;
+    margin: auto;
+    text-align: left;
+    color: white;
+    padding: 75px 15px 0 145px;
+    font-family: 'Teko', sans-serif;
+    font-size: 250%;
+}
+/*Pix-content start*/
+#train{
+    background-image: url(assets/images/450/5.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+#tame{
+    background-image: url(assets/images/450/6.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
 
-    .container-content{
-    padding: 60px 0px 0px 0px;
+/*Pix-content end*/
+
+.container-content{
+padding: 60px 0px 0px 0px;
+width: 100%;
+}
+.small-width-25 {
+    width: 25%;
+}
+
+.small-width-33 {
+    width: 33.3333%;
+}
+
+.small-width-50 {
+    width: 50%;
+}
+
+.small-width-66 {
+    width: 66.6666%
+}
+
+.small-width-75 {
+    width: 75%;
+}
+
+.small-width-100 {
     width: 100%;
-    }
-    .small-width-25 {
-        width: 25%;
-    }
-    
-    .small-width-33 {
-        width: 33.3333%;
-    }
-    
-    .small-width-50 {
-        width: 50%;
-    }
+}
 
-    .small-width-66 {
-        width: 66.6666%
-    }
+.small-hide {
+    display: hide;
+}
 
-    .small-width-75 {
-        width: 75%;
-    }
-
-    .small-width-100 {
-        width: 100%;
-    }
-
-    .small-hide {
-        display: hide;
-    }
-
-    .small-show {
-        display: initial;
-    }
+.small-show {
+    display: initial;
+}
 }
 
 
 /*************MEDIUM SCREENS****************************************************************************************************/
 @media (min-width: 768px){
-    .about-oscb{
-        font-family: 'Teko', sans-serif;
-        color: darkred;
-        padding: 90px 0px 0px 25px;
-        margin: 0;
-        height: 30px;
-        top: 37px;
-    }
-    #about-content{
-        padding: 11px 150px 0px 150px;
-        height: 105px;
-    }
-    #trainer{
-        margin: auto;
-        text-align: center;
-        padding: 80px 0 0 0;
-        font-family: 'Teko', sans-serif;
-        font-size: 300%;
-        color: darkred;
-        text-transform: uppercase;
-    }
-    p{
-        margin: auto;
-        text-align: center;
-        color: white;
-        padding: 515px 0 0 0;
-        font-family: 'Teko', sans-serif;
-        font-size: 300%;
-        color: darkred;
-        text-transform: uppercase;
-    }
-    .train2-quote{
-        width:50%;
-        margin: auto;
-        text-align: center;
-        color: white;
-        padding: 86px 190px 0 190px;
-        font-family: 'Teko', sans-serif;
-        font-size: 381%;
-    }
-    /*Pix-content start*/
-    #prep{
-        background-image: url(assets/images/768/4.jpg);
-        background-repeat: no-repeat;
-        min-height: 600px;
-        background-size: cover;
-        background-position: center;
-    }
-    #train{
-        background-image: url(assets/images/768/5.jpg);
-        background-repeat: no-repeat;
-        min-height: 600px;
-        background-size: cover;
-        background-position: center;
-    }
-    #tame{
-        background-image: url(assets/images/768/6.jpg);
-        background-repeat: no-repeat;
-        min-height: 600px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    /*Pix-content end*/
-    .container-content{
-        padding: 76px 0px 0px 0px;
-        position: absolute;
-        width: 100%;
-        }
-    .medium-width-25 {
-        width: 25%;
-    }
-    
-    .medium-width-33 {
-        width: 33.3333%;
-    }
+.about-oscb{
+    font-family: 'Teko', sans-serif;
+    color: darkred;
+    padding: 90px 0px 0px 25px;
+    margin: 0;
+    height: 30px;
+    top: 37px;
+}
+#about-content{
+    padding: 11px 150px 0px 150px;
+    height: 105px;
+}
+#trainer{
+    margin: auto;
+    text-align: center;
+    padding: 80px 0 0 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 300%;
+    color: darkred;
+    text-transform: uppercase;
+}
+p{
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 515px 0 0 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 300%;
+    color: darkred;
+    text-transform: uppercase;
+}
+.train2-quote{
+    width:50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 86px 190px 0 190px;
+    font-family: 'Teko', sans-serif;
+    font-size: 381%;
+}
+/*Pix-content start*/
+#prep{
+    background-image: url(assets/images/768/4.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+#train{
+    background-image: url(assets/images/768/5.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+#tame{
+    background-image: url(assets/images/768/6.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
 
-    .medium-width-50 {
-        width: 50%;
+/*Pix-content end*/
+.container-content{
+    padding: 76px 0px 0px 0px;
+    position: absolute;
+    width: 100%;
     }
+.medium-width-25 {
+    width: 25%;
+}
 
-    .medium-width-66 {
-        width: 66.6666%
-    }
+.medium-width-33 {
+    width: 33.3333%;
+}
 
-    .medium-width-75 {
-        width: 75%;
-    }
+.medium-width-50 {
+    width: 50%;
+}
 
-    .medium-width-100 {
-        width: 100%;
-    }
+.medium-width-66 {
+    width: 66.6666%
+}
 
-    .med-hide {
-        display: hide;
-    }
+.medium-width-75 {
+    width: 75%;
+}
 
-    .med-show {
-        display: initial;
-    }
+.medium-width-100 {
+    width: 100%;
+}
+
+.med-hide {
+    display: hide;
+}
+
+.med-show {
+    display: initial;
+}
 }
 
 /*************LARGE SCREENS******************************************************************************************/
 @media (min-width: 992px){
-    .about-oscb{
-        font-family: 'Teko', sans-serif;
-        color: darkred;
-        padding: 120px 0px 0px 25px;
-        margin: 0;
-        height: 30px;
-        top: 37px;
+.about-oscb{
+    font-family: 'Teko', sans-serif;
+    color: darkred;
+    padding: 120px 0px 0px 25px;
+    margin: 0;
+    height: 30px;
+    top: 37px;
+}
+#about-content{
+    padding: 11px 180px 0px 180px;
+    height: 40px;
+}
+/*Pix-content end*/
+#tame{
+    background-image: url(assets/images/992/6.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+/*Pix-content end*/
+.container-content{
+    padding: 106px 0px 0px 0px;
     }
-    #about-content{
-        padding: 11px 180px 0px 180px;
-        height: 40px;
-    }
-    /*Pix-content end*/
-    #tame{
-        background-image: url(assets/images/992/6.jpg);
-        background-repeat: no-repeat;
-        min-height: 600px;
-        background-size: cover;
-        background-position: center;
-    }
-    /*Pix-content end*/
-    .container-content{
-        padding: 106px 0px 0px 0px;
-        }
-    .large-width-25 {
-        width: 25%;
-    }
-    
-    .large-width-33 {
-        width: 33.33333%;
-    }
+.large-width-25 {
+    width: 25%;
+}
 
-    .large-width-50 {
-        width: 50%;
-    }
-    
-    .large-width-66 {
-        width: 66.6666%
-    }
+.large-width-33 {
+    width: 33.33333%;
+}
 
-    .large-width-75 {
-        width: 75%;
-    }
+.large-width-50 {
+    width: 50%;
+}
 
-    .large-width-100 {
-        width: 100%;
-    }
+.large-width-66 {
+    width: 66.6666%
+}
 
-    .large-hide {
-        display: hide;
-    }
+.large-width-75 {
+    width: 75%;
+}
 
-    .large-show {
-        display: initial;
-    }
+.large-width-100 {
+    width: 100%;
+}
+
+.large-hide {
+    display: hide;
+}
+
+.large-show {
+    display: initial;
+}
 }
 
 /*************X-LARGE SCREENS********************************************************************************/
 @media (min-width: 1200px){
-    .xlarge-width-25 {
-        width: 25%;
-    }
-    
-    .xlarge-width-33 {
-        width: 33.33333%;
-    }
+.xlarge-width-25 {
+    width: 25%;
+}
 
-    .xlarge-width-50 {
-        width: 50%;
-    }
-    
-    .xlarge-width-66 {
-        width: 66.6666%
-    }
+.xlarge-width-33 {
+    width: 33.33333%;
+}
 
-    .xlarge-width-75 {
-        width: 75%;
-    }
+.xlarge-width-50 {
+    width: 50%;
+}
 
-    .xlarge-width-100 {
-        width: 100%;
-    }
+.xlarge-width-66 {
+    width: 66.6666%
+}
 
-    .xlarge-hide {
-        display: hide;
-    }
+.xlarge-width-75 {
+    width: 75%;
+}
 
-    .xlarge-show {
-        display: initial;
-    }
+.xlarge-width-100 {
+    width: 100%;
+}
+
+.xlarge-hide {
+    display: hide;
+}
+
+.xlarge-show {
+    display: initial;
+}
 }
