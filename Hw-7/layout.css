@@ -59,24 +59,7 @@ body {
     background-color: rgb(39, 39, 39);
     padding: 60px 0px 0px 0px;
 }
-.red{
-    background: red;
-}
-.green{
-    background-color: lightgreen;
-}
-.blue{
-    background-color: lightblue;
-}
-.yellow{
-    background-color: lightgoldenrodyellow;
-}
-.cyan{
-    background-color: darkturquoise;
-}
-.purple{
-    background-color: plum;
-}
+
 .floater-section{
     float: left;
     width: 100%;
@@ -154,6 +137,9 @@ p{
         display: initial;
     }
 } 
+.small-width-100, #aboutpic{
+    padding: 73px 0 0 0;
+}
 .line-h, #contact-line{
     padding: 0 0 0px;
     height: 163px;
@@ -188,6 +174,9 @@ p{
 
 /*************SMALL SCREENS END**************************************************************************************/
 @media (min-width: 450px){
+    .small-width-100, #aboutpic{
+        padding: 73px 0 0 0;
+    }
 .about-oscb{
     font-family: 'Teko', sans-serif;
     color: darkred;
@@ -286,6 +275,9 @@ width: 100%;
 
 /*************MEDIUM SCREENS****************************************************************************************************/
 @media (min-width: 768px){
+    .small-width-100, #aboutpic{
+        padding: 95px 0 0 0;
+    }
 .about-oscb{
     font-family: 'Teko', sans-serif;
     color: darkred;
