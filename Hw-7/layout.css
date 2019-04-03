@@ -156,6 +156,13 @@ p{
         display: initial;
     }
 } 
+.line-h, #contact-line{
+    padding: 0 0 0px;
+    height: 163px;
+    width: 300px;
+    border-bottom: 3px solid darkred;
+    float: left;
+}
 /**********************ABOUT INFO START**************************************/
 .line-h{
     padding: 0 0 0px;
