@@ -1,4 +1,15 @@
 /*Pix-content start*/
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    max-width: 100%;
+    background-color: white;
+}
 #jumpin{
     background-image: url(assets/images/450/1-1.jpg);
     background-repeat: no-repeat;
@@ -44,10 +55,7 @@
 
 /*Pix-content end*/
 
-body{
-    max-width: 100%;
-    background-color: #242424;
-}
+
 .container-content{
     background-color: rgb(39, 39, 39);
     padding: 60px 0px 0px 0px;
@@ -148,6 +156,7 @@ p{
         display: initial;
     }
 } 
+/**********************ABOUT INFO START**************************************/
 .line-h{
     padding: 0 0 0px;
     height: 0px;
@@ -165,13 +174,14 @@ p{
 #about-content{
     padding: 11px 10px 0px 10px;
     text-align: left;
-    color: white;
+    color: #363636;
     font-size: 100%;
     text-transform: none;
     height: 215px;
 }
+/**********************ABOUT INFO END**************************************/
 
-/*************SMALL SCREENS********************/
+/*************SMALL SCREENS END**************************************************************************************/
 @media (min-width: 450px){
     .about-oscb{
         font-family: 'Teko', sans-serif;
@@ -182,12 +192,8 @@ p{
         top: 37px;
     }
     #about-content{
-        padding: 11px 10px 0px 10px;
-        text-align: left;
-        color: white;
-        font-size: 100%;
-        text-transform: none;
-        height: 125px;
+        padding: 11px 60px 0px 60px;
+        height: 190px;
     }
     #trainer{
         margin: auto;
@@ -273,7 +279,7 @@ p{
 }
 
 
-/*************MEDIUM SCREENS*******************/
+/*************MEDIUM SCREENS****************************************************************************************************/
 @media (min-width: 768px){
     .about-oscb{
         font-family: 'Teko', sans-serif;
@@ -284,12 +290,8 @@ p{
         top: 37px;
     }
     #about-content{
-        padding: 11px 25px 0px 25px;
-        text-align: left;
-        color: white;
-        font-size: 100%;
-        text-transform: none;
-        height: 40px;
+        padding: 11px 150px 0px 150px;
+        height: 105px;
     }
     #trainer{
         margin: auto;
@@ -381,7 +383,7 @@ p{
     }
 }
 
-/*************LARGE SCREENS*******************/
+/*************LARGE SCREENS******************************************************************************************/
 @media (min-width: 992px){
     .about-oscb{
         font-family: 'Teko', sans-serif;
@@ -392,11 +394,7 @@ p{
         top: 37px;
     }
     #about-content{
-        padding: 11px 25px 0px 25px;
-        text-align: left;
-        color: white;
-        font-size: 100%;
-        text-transform: none;
+        padding: 11px 180px 0px 180px;
         height: 40px;
     }
     /*Pix-content end*/
@@ -444,7 +442,7 @@ p{
     }
 }
 
-/*************X-LARGE SCREENS*******************/
+/*************X-LARGE SCREENS********************************************************************************/
 @media (min-width: 1200px){
     .xlarge-width-25 {
         width: 25%;

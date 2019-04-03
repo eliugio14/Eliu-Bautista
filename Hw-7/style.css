@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+/*IMAGE Starts*/
 .image-content {
     padding: 0px 0px;
     /*border-bottom: 2px solid purple;*/
     position: relative;
 }
-
 .image-content .img-container2 {
     min-height: 160px;
 }
-
 .image-content img{
     max-width: 100%;
 }
-
-
-    /* Content Start */
+/*IMAGE ENDS*/
 /* START CONTACT Promotion*/
     .message{
     font-family: 'Sedgwick Ave', cursive;
@@ -36,7 +33,7 @@
     border: solid black 7px 0px 0px 0px;
     }
     .message, .general{
-        color: red;
+        color: darkred;
         font-family: 'Teko', sans-serif;
     }
     .form input #Additionalinfo{
