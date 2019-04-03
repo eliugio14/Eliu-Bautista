@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 @media (min-width: 320px){
+
 .header {
     display: block;
     margin: 0 auto;
@@ -137,6 +138,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     margin-top: -9px;
 }
 }
+
 
 @media (min-width: 450px){
 }
