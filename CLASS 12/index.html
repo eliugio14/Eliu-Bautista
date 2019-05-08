@@ -37,17 +37,31 @@
     var makeDropdown = document.getElementById ("carMake");
     var modelDropdown = document.getElementById ("carModel");
     makeDropdown.addEventListener("change", function(){
-        console.log(this.Value);
-
+        console.log(this.value);
         modelDropdown.innerHTML = "";
+
+        if(this.value === "audi"){
+            for( var i = 0; i<audiModels.length; i++){
+            modelDropdown.innerHTML += '<option value="' + audiModels[i] + '">' +audiModels [i] + '</option>';
+             }
+        } else if(this.value === 'bmw'){
+            for( var i = 0; i<bmwModels.length; i++){
+            modelDropdown.innerHTML += '<option value="' + bmwModels[i] + '">' +bmwModels [i] + '</option>';
+             }
+        }else if (this.value === 'merc'){
+            for( var i = 0; i<mercModels.length; i++){
+            modelDropdown.innerHTML += '<option value="' + mercModels[i] + '">' +mercModels [i] + '</option>';
+             }
+        }else if (this.value === 'porsche')
+        for( var i = 0; i<porscheModels.length; i++){
+            modelDropdown.innerHTML += '<option value="' + porscheModels[i] + '">' +porscheModels [i] + '</option>';
+             }
+
         //<option value=" + text +"> + Text + </option>//
         //            modelDropdown.innerHTML += '<option value="' + bmwModels[0] + '">' +bmwModels [0] + '</option>';//
         //            modelDropdown.innerHTML += '<option value="' + bmwModels[1] + '">' +bmwModels [1] + '</option>';//
         //            modelDropdown.innerHTML += '<option value="' + bmwModels[2] + '">' +bmwModels [2] + '</option>';//
         //            modelDropdown.innerHTML += '<option value="' + bmwModels[3] + '">' +bmwModels [3] + '</option>';//
-        for( var i = 0; i<bmwModels.length; i++){
-            modelDropdown.innerHTML += '<option value="' + bmwModels[i] + '">' +bmwModels [i] + '</option>';
-        }
     });
 </script>
 
