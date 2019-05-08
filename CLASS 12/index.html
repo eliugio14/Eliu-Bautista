@@ -1,0 +1,55 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+     <main>
+        <h1> Which car would you like to test:</h1>
+        <form action="" method="POST">
+            <label for="carMake"> Car Make:</label>
+            <select name="make" id="carMake">
+                <Option value="audi">Audi</Option>
+                <Option value="bmw">BMW</Option>
+                <Option value="merc">Mercedez</Option>
+                <Option value="porsche">Porsche</Option>
+            </select>
+
+            <label for="carModel">Model</label>
+            <select name="model" id="carModel"></select>
+
+        </form>
+    </main>
+
+
+
+<script>
+    var audiModels     = ["S3", "S5", "S7"];
+    var bmwModels      = ["Series-3", "Series-4", "Series-5","Series-7"];
+    var mercModels     = ["C-class", "E-Class", "S-Class"];
+    var porscheModels  = ["911", "Macan", "Panamera", "Cayenne"];
+
+
+    var makeDropdown = document.getElementById ("carMake");
+    var modelDropdown = document.getElementById ("carModel");
+    makeDropdown.addEventListener("change", function(){
+        console.log(this.Value);
+
+        modelDropdown.innerHTML = "";
+        //<option value=" + text +"> + Text + </option>//
+        //            modelDropdown.innerHTML += '<option value="' + bmwModels[0] + '">' +bmwModels [0] + '</option>';//
+        //            modelDropdown.innerHTML += '<option value="' + bmwModels[1] + '">' +bmwModels [1] + '</option>';//
+        //            modelDropdown.innerHTML += '<option value="' + bmwModels[2] + '">' +bmwModels [2] + '</option>';//
+        //            modelDropdown.innerHTML += '<option value="' + bmwModels[3] + '">' +bmwModels [3] + '</option>';//
+        for( var i = 0; i<bmwModels.length; i++){
+            modelDropdown.innerHTML += '<option value="' + bmwModels[i] + '">' +bmwModels [i] + '</option>';
+        }
+    });
+</script>
+
+</body>
+</html>
