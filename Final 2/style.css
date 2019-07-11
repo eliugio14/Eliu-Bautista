@@ -8,6 +8,14 @@ body {
 
 }
 
+.footer-info{
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 10px 30px 0 0;
+}
+
 /******************** NAVIGATION BARRRRRRR ********************/
 ul {
     padding: 0px;
@@ -921,7 +929,7 @@ footer {
 
     .smlogo {
         width: 30px;
-        padding: 40px 30px;
+        padding: 20px 30px;
     }
     
     .smlogo_container {
