@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <link rel="stylesheet" href="../blog.css" type="text/css">
+  <link rel="stylesheet" href="../style.css" type="text/css">
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <nav>
+        <div id="nav">
+            <img src="../img/logo.png" alt="logo" id="logo">
+
+
+          <div id="btn1">
+              <div id="line1" class="line"></div>
+              <div id="line2" class="line"></div>
+              <div id="line3" class="line"></div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <ul id="submenu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html" class="active" >About Us </a></li>
+              <li><a href="blog.html" >News</a></li>
+              <li><a href="donate.html" class>Donate</a></li>
+                </ul>
+
+
+        </ul>
+      </nav>
+
+      <div class="navclearfix"></div>
+
+      <div class="clearfix"></div>
+
+      <div class="blog-header2"> </div>
+            
+
+
+      <div id="fh5co-blog" class=>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="fh5co-blog animate-box fadeInUp animated-fast">
+                    <a  class="blog-bg"></a>
+                    <div class="blog-text">
+                        <span class="posted_on">Olivia Sanchez</span>
+                        <h3><a > ABOUT THE PRESIDENT AND THE ORGANIZATION</a></h3>
+                        <p>Olivia Sanchez is the Equal Employment Opportunity Manager at Metropolitan Water District of Southern California. In her role she has provided leadership in the development and implementation of strategies, programs and policies relating to the Metropolitan’s EEO/AA and Nondiscrimination programs. Other areas of focus have been the development of outreach strategies related to women and minorities, protected veterans, individuals with disabilities, and diversity and inclusions efforts. Prior to joining Metropolitan, she worked for the California State University, both at the Chancellor’s Office under the General Counsel and as the Equity and Diversity Manager at CSU, Los Angeles.
+                            <br>
+                            <br>
+                            Assisting with improving the lives of others through her contributions is something she is passionate about. Seeing a life positively impacted, doors open that were once closed or other constructive outcomes as a result of her work on the Board of Directors for WINTER is a motivating force for her.
+                            
+                            </p>
+                    </div> 
+                </div>
+            </div>
+
+
+
+
+
+      <div class="clearfix"></div>
+      <footer>
+        <div class="smlogo_container">
+                <a href="https://twitter.com/winterwomen1996" target="_blank"> <img alt="Twitter" class="smlogo" src="../img/twitter.png">
+                <a href="https://www.instagram.com/winter_programs/" target="_blank"> <img alt="instagram" class="smlogo" src="../img/instagram.png">
+                <a href="https://www.facebook.com/winteronline/" target="_blank"> <img alt="facebook" class="smlogo" src="../img/facebook.png">
+        </div>
+      
+  </footer>
+
+
+
+
+ 
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script>
+      $(document).ready(function(){
+        $('#submenu').addClass('hidden');
+        $('#btn1').click(function(){
+            $('#submenu').toggleClass('shown');
+        });
+
+
+
+    $('#about_submenu').click(function(){
+          if($('#submenu1').css('display') === 'none'){
+                $('#submenu1').slideDown(600);
+          }
+          else if ($('#submenu1').css('display') === 'block'){
+                $('#submenu1').slideUp(600);
+          }
+    }); // end click
+      
+    $('#get_submenu').click(function(){
+        if($('#submenu2').css('display') === 'none'){
+            $('#submenu2').slideDown(600);
+        }
+        else if ($('#submenu2').css('display') === 'block'){
+            $('#submenu2').slideUp(600);
+        }
+    }); // end click
+
+    $('#experience_submenu').click(function(){
+        if($('#submenu3').css('display') === 'none'){
+            $('#submenu3').slideDown(600);
+        }
+        else if ($('#submenu3').css('display') === 'block'){
+            $('#submenu3').slideUp(600);
+        }
+    }); // end click
+
+    $('#news_submenu').click(function(){
+        if($('#submenu4').css('display') === 'none'){
+            $('#submenu4').slideDown(600);
+        }
+        else if ($('#submenu4').css('display') === 'block'){
+            $('#submenu4').slideUp(600);
+        }
+    }); // end click
+
+    $('#informationdiv').addClass('hidden');
+    $('#information').click(function(){
+        $('#informationdiv').toggleClass('shown');
+    });
+
+    $('#submit').click(function(){
+        $('#success').show();
+    });
+}); // end ready
+
+
+  </script>
+
+    </body>
+    </html>

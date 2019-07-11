@@ -1,0 +1,1029 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300&display=swap');
+
+body {
+    margin: 0px;
+
+}
+
+/******************** NAVIGATION BARRRRRRR ********************/
+ul {
+    padding: 0px;
+    background-color:rgb(252, 252, 247);
+    /* list-style: none; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+li {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Bitter', serif;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    color: white;
+}
+
+
+
+#nav {
+    width: 100%;
+    height: 50px;
+    padding-top: 12px;
+    padding-bottom: 17px;
+    background-color: #b252be;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+#logo {
+    float: left;
+    width: 265px;
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+#name {
+    float: left;
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgb(247, 201, 0);
+    font-family: 'Abel', sans-serif;
+    margin-left: 10px;
+}
+
+#btn1{
+    float: right;
+    padding-top: 18px;
+    padding-right: 20px;
+}
+
+#line1 {
+    width: 30px;
+    height: 3px;
+    margin-bottom: 8px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 8px;
+}
+
+#line2 {
+    width: 30px;
+    height: 3px;
+    margin-bottom: 8px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 8px;
+}
+
+#line3 {
+    width: 30px;
+    height: 3px;
+    margin-bottom: 8px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 8px;
+}
+
+
+.line {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#submenu {
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    background-color: #b252be;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+#submenu1 {
+    display: none;
+}
+
+#submenu2 {
+    display: none;
+}
+
+#submenu2 li a{
+    color: #b252be;
+}
+
+#submenu3 {
+    display: none;
+}
+
+#submenu4 {
+    display: none;
+}
+
+.arrow {
+    width: 18px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.arrow1 {
+    width: 18px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.arrow2 {
+    width: 18px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+#submenu1 li {
+    color: #b252be;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#submenu2 li {
+    color: #b252be;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#submenu3 li {
+    color: #b252be;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#submenu4 li {
+    color: #b252be;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+/******************** NAVIGATION BARRRRRRR ********************/
+
+.superbox {
+    display: none;
+}
+
+h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #b252be;
+}
+
+.superdiv {
+    margin: 0px 0px;
+}
+
+.donate {
+    padding: 5px 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #b252be;
+
+}
+
+.header {
+    font-family: 'Bitter', serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+span {
+    color: rgb(247, 201, 0);
+}
+
+.donate_button {
+    height:36px; 
+    width:120px; 
+    margin: -36px -60px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    background-color: rgb(61, 61, 61);
+    border: none;
+    border-radius: 3px;
+}
+
+.donate_button a {
+    color: rgb(252, 252, 247);
+    text-decoration: none;
+}
+
+.donate_button:hover {
+    background-color: grey;
+}
+
+#img1 {
+    width: 100%;
+    position: relative;
+}
+
+.participatediv {
+    width: 300px;
+    height: 55px;
+    margin: -55px -150px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    background-color: white;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.participate_button {
+    height:45px; 
+    width:280px;     
+    background-color: rgb(247, 201, 0);
+    border: none;
+    border-radius: 3px;
+    color: rgb(61, 61, 61);
+    font-size: 18px;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.participate_button a {
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'Abel', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mission {
+    border-radius: 3px;
+    padding: 0 30px;
+    margin-top: -36px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.p_mission {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+}
+
+.box_container {
+    text-align: center;
+
+}
+
+
+/******************** BOX 1 BOX 1 BOX 1 ********************/
+#box1 {
+    background-color: white;
+    margin: 10px 15px;  
+    margin-top: 30px;
+    position: relative;
+    min-height: 180px;
+    border-radius: 3px;
+}
+
+#boximg1 {
+    position: absolute;
+    height: 244px;
+    left: -47px;
+    border-radius: 3px 0px 0px 3px;
+    clip: rect(0px,173px,180px,47px);
+}
+
+#boxp1 {
+    position: absolute;
+    min-width: 50%;
+    top: 50;
+    left: 50;
+    margin: 15px 150px;
+}
+
+#box1 h2 {
+    font-family: 'Abel', sans-serif;
+    margin-top: 0px;
+}
+
+#box1 p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+#boxbtn1 {
+    background-color: #f7c900;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+/******************** BOX 2 BOX 2 BOX 2 ********************/
+#box2 {
+    background-color: white;
+    margin: 10px 15px;
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 180px;
+    border-radius: 3px;
+}
+
+#boximg2 {
+    position: absolute;
+    height: 180px;
+    left: -25px;
+    border-radius: 3px 0px 0px 3px;
+    clip: rect(0px,151px,180px,25px);
+}
+
+#boxp2 {
+    position: absolute;
+    min-width: 50%;
+    top: 50;
+    left: 50;
+    margin: 15px 150px;
+}
+
+#box2 h2 {
+    font-family: 'Abel', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#box2 p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+#boxbtn2 {
+    background-color: #b252be;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 3px;
+}
+
+#boxbtn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/******************** BOX 3 BOX 3 BOX 3 ********************/
+#box3 {
+    background-color: white;
+    margin: 10px 15px;
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 180px;
+    border-radius: 3px;
+}
+
+#boximg3 {
+    position: absolute;
+    height: 180px;
+    left: -40px;
+    border-radius: 3px 0px 0px 3px;
+    clip: rect(0px,166px,180px,40px);
+}
+
+#boxp3 {
+    position: absolute;
+    min-width: 50%;
+    top: 50;
+    left: 50;
+    margin: 15px 150px;
+}
+
+#box3 h2 {
+    font-family: 'Abel', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#box3 p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+#boxbtn3 {
+    background-color: rgb(61, 61, 61);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+#boxbtn3 a {
+    text-decoration: none;
+    color: white;
+}
+
+/******************** FOOTER FOOTER FOOTER ********************/
+footer {
+    background-color: #b252be;
+}
+
+.smlogo {
+    width: 50px;
+    padding: 30px 10px;
+}
+
+.smlogo_container {
+    text-align: center;
+    width: 250px;
+    margin: 0px auto;
+}
+
+
+@media(min-width: 428px){
+    #boximg1 {
+        clip: rect(0px,183px,180px,47px);
+    }
+
+    #boxp1 {
+        margin-left: 167px;
+    }
+
+    #boximg2 {
+        clip: rect(0px,161px,180px,25px);
+    }
+
+    #boxp2 {
+        margin-left: 167px;
+    }
+
+    #boximg3 {
+        clip: rect(0px,176px,180px,40px);
+    }
+
+    #boxp3 {
+        margin-left: 167px;
+    }
+}
+
+@media(min-width: 480px){
+
+
+    .donate_button {
+        height:40px; 
+        width:180px; 
+        margin: -40px -90px; 
+    }
+    
+    .donate_button a {
+        font-size: 13px;
+    }
+    
+    .donate_button:hover {
+        background-color: grey;
+    }
+
+    #boxbtn1 {
+        padding: 10px 70px;
+        font-size: 13px;
+    }
+
+    #boxbtn2 {
+        padding: 10px 60px;
+        font-size: 13px;
+    }
+
+    #boxbtn3 {
+        padding: 10px 70px;
+        font-size: 13px;
+    } 
+}
+
+@media(min-width: 500px){
+    #boximg1 {
+        clip: rect(0px,203px,180px,32px);
+        left: -32px;
+    }
+
+    #boxp1 {
+        margin-left: 203px;
+    }
+
+    #boximg2 {
+        clip: rect(0px,176px,180px,5px);
+        left: -5px;
+    }
+
+    #boxp2 {
+        margin-left: 203px;
+    }
+
+    #boximg3 {
+        clip: rect(0px,211px,180px,40px);
+    }
+
+    #boxp3 {
+        margin-left: 203px;
+    }
+}
+
+@media(min-width: 550px){
+    #boxp1{
+        min-width: 55%;
+    }
+
+    #boxp2{
+        min-width: 55%;
+    }
+
+    #boxp3{
+        min-width: 55%;
+    }
+}
+
+@media(min-width: 587px){
+    #box3 p {
+        margin-bottom: 25px;
+    }
+
+    #box3 h2 {
+        margin-bottom: 15px;
+    }
+
+    .header br{
+        display: none;
+    }
+
+    .header {
+        padding-bottom: 10px;
+    }
+
+
+}
+
+@media(min-width: 653px){
+    .header {
+        font-size: 30px;
+    }
+    
+    .donate_button {
+        width: 220px;
+        margin: -40px -110px;
+    }
+    
+    .participate_button {
+        width: 340px;
+        font-size: 20px;
+    }
+    
+    .participatediv {
+        width: 360px;
+        margin: -55px -180px;
+    }
+    
+    .title {
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .p_mission {
+        font-size: 15px;
+    }
+    
+    .mission {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    #box1 h2 {
+        font-size: 36px;
+    }
+    
+    #boxp1 p {
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+
+    #boxbtn1 {
+        padding: 10px 100px;
+    }
+
+    #box3 h2 {
+        font-size: 26px;
+    }
+
+    #boxp2 p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    #boxbtn2 {
+        padding: 10px 100px;
+    }
+
+    #box3 h2 {
+        font-size: 26px;
+    }
+
+    #boxp3 p {
+        font-size: 16px;
+    }
+
+    #boxbtn3 {
+        padding: 10px 100px;
+    }
+}
+
+@media(min-width: 670px){
+    #boxp1 {
+        margin-left: 220px;
+    }
+
+    #boxp2 {
+        margin-left: 220px;
+    }
+
+    #boxp3 {
+        margin-left: 220px;
+    }
+
+    #box1 {
+        width: 100%;
+        height: 180px;
+        margin: 0px auto;
+    }
+
+    #box2 {
+        width: 640px;
+        height: 180px;
+        margin: 25px auto;
+    }
+
+    #box3 {
+        width: 640px;
+        height: 180px;
+        margin: 25px auto;
+    }
+
+    .p_mission {
+        width: 650px;
+        margin: 15px auto;
+    }
+}
+
+@media(min-width: 768px){
+    .participate_button {
+        width: 400px;
+    }
+    
+    .participatediv {
+        width: 420px;
+        margin: -70px -210px;
+    }
+    
+    .participate_button {
+        height: 60px;
+    }
+
+    .participatediv {
+        height: 70px;
+    }
+
+
+
+@media(min-width: 900px){
+
+
+
+    #box1 {
+        float: right;
+        background-color: #cecece;
+        height: 210px;
+        width: 100%;
+    }
+
+    #boxp1 {
+        padding-top: 10px;
+        border-radius: 3px;
+        height: 167px;
+        margin-left: 214px;
+        width: 349px;
+    }
+
+    #boximg1 {
+        left: -16px;
+        top: 15px;
+    }
+
+    #box2 {
+        float: right;
+        background-color: #b252be;
+        height: 210px;
+        width: 590px;
+        margin-top: 0px;
+    }
+
+    #boxp2 {
+        background-color: white;
+        padding-top: 10px;
+        border-radius: 3px;
+        height: 167px;
+        margin-left: 214px;
+        width: 349px;
+    }
+
+    #boximg2 {
+        left: 10px;
+        top: 15px;
+    }
+
+    #box3 {
+        float: left;
+        width: 244px;
+        height: 450px;
+        margin-top: -240px;
+    }
+
+    #boxp3 {
+        margin-left: 0px;
+        margin-top: 217px;
+    }
+
+    #boximg3 {
+        clip: rect(0px,246px,180px,33px);
+        top: 16px;
+        left: -18px;
+    }
+
+    #boxp3 {
+        margin-right: 0px;
+        margin-top: 227px;
+    }
+
+    #boxp3 p {
+        margin-top: 0px;
+    }
+
+    #boxp3 h2 {
+        margin-bottom: 20px;
+    }
+
+    #boxbtn3 {
+        padding-left: 70px;
+        padding-right: 70px;
+        margin-top: 12px;
+    }
+
+
+    .p_mission {
+        font-size: 37px;
+        text-align: center;
+    }
+    
+    .header {
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 900px){
+
+}
+
+@media(min-width: 1000px){
+    #img1 {
+        width: 50%;
+        float: left;
+    }
+
+    .p_mission {
+        width: 380px;
+    }
+
+    .mission {
+        margin-top: 0px;
+        float: right;
+        padding-right: 10px;
+        padding-left: 9px;
+        width: 480px;
+        padding-top: 12px;
+        
+    }
+
+    .participatediv {
+        position: absolute;
+        margin-left: 48px;
+        margin-top: 287px;
+    }
+
+
+    #img1 {
+        width: 500px;
+        position: absolute;
+    }
+
+    #superbox {
+        width: 1000px;
+        margin: 0px auto;
+        position: relative;
+    }
+
+    #btn1 {
+        display: none;
+    }
+
+    #submenu {
+        width: 700px;
+        float: right;
+        margin-top: -54px;
+        padding-bottom: 10px;
+    }
+
+    #submenu.hidden {
+        display: block;
+    }
+
+    ul {
+        background-color: #b252be;
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 0 10px;
+        color: white;
+    }
+
+    li a {
+        color: white;
+    }
+
+    #submenu1 li {
+        color: white;
+    }
+
+    #submenu2 li {
+        color: white;
+    }
+
+    #submenu3 li {
+        color: white;
+    }
+
+    #submenu4 li {
+        color: white;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .arrow1 {
+        display: none;
+    }
+
+    .arrow2 {
+        display: none;
+    }
+
+    .active {
+        border-bottom: 4px solid grey;
+    }
+
+    .navclearfix {
+        clear: both;
+    }
+
+
+    .smlogo {
+        width: 30px;
+        padding: 40px 30px;
+    }
+    
+    .smlogo_container {
+        text-align: center;
+        width: 400px;
+        margin: 0px auto;
+    }
+
+}
+
+@media(min-width: 1200px) {
+    body {
+        width: 1200px;
+        margin: 0px auto;
+    }
+
+    #superbox {
+        width: 1200px;
+    }
+
+    #img1 {
+        width: 600px;
+    }
+
+    .mission {
+        width: 581px;
+        height: 384px;
+        padding-bottom: 9px;
+    }
+
+    .participatediv {
+        margin-left: 89px;
+        margin-top: 339px;
+    }
+
+
+
+
+
+    #box1 {
+        width: 100%;
+        padding-top: 0px;   
+    }
+
+    #boximg1 {
+        left: -6px;
+        top: 20px;
+        clip: rect(0px,213px,180px,22px);
+    }
+
+    #boxp1 {
+        margin-left: 340px;
+        padding-top: 35px;
+        margin-top: 17px;
+        padding-bottom: 4px;
+    }
+
+    #boxp1 p {
+        margin-bottom: 25px;
+    }
+
+    #box2 {
+        margin-bottom: 0px;
+        width: 636px;
+    }
+
+    #boximg2 {
+        left: 17px;
+        clip: rect(0px,186px,180px,-12px);
+    }
+
+    #boxp2 {
+        margin-left: 240px;
+        margin-top: 17px;
+    }
+
+    #boxp2 p {
+        margin-bottom: 25px;
+    }
+
+    #box3 {
+        width: 314px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #boximg3 {
+        clip: rect(0px,315px,180px,33px);
+    }
+
+    #boxp3 {
+        width: 282px;
+        margin: 227px auto;
+        margin-left: 15px;
+    }
+
+    #boxbtn3 {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    #boxp3 p {
+        margin-bottom: 21px;
+    }
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+      <nav>
+        <div id="nav">
+            <img src="img/logo.png" alt="logo" id="logo">
+
+
+          <div id="btn1">
+              <div id="line1" class="line"></div>
+              <div id="line2" class="line"></div>
+              <div id="line3" class="line"></div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+
+          <ul id="submenu">
+              <li><a href="" class="active">Home</a></li>
+              <li><a href="pages/about.html">About Us</a></li>
+                      <li><a href="pages/blog.html">News</a></li>
+                      <li><a href="pages/donate.html">Donate</a></li>
+                  </ul>
+
+
+          </ul>
+      </nav>
+
+      <div class="navclearfix"></div>
+
+      <div class="clearfix"></div>
+
+      <main class="superdiv">
+          <div class="donate">
+                <p class="header"> TO TRAIN, EDUCATE AND PREPARE</p>
+          </div>
+
+        <div id="superbox">
+            <img src="img/7.png" alt="" id="img1">
+        
+
+
+
+            <div class="mission">
+                <p class="title">Everyone has a story!</p>
+                <p class="p_mission"> Ten weeks of hands on training and placement in high skill careers. <br> Are you ready?   </p>
+            </div>
+        </div>
+    
+
+        <div class="clearfix"></div>
+
+        <div class="box_container">
+
+            <div id="box1">
+                <img src="img/5.png" alt="logo" id="boximg1"> 
+                <div id="boxp1">
+                    <h2>Mission Statement</h2>
+                    <p>"To train, educate and prepare women and youth for transformative careers in the construction industry."</p>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+        </div>
+
+      </main>
+
+      <footer>
+            <div class="smlogo_container">
+                    <a href="https://twitter.com/winterwomen1996" target="_blank"> <img alt="Twitter" class="smlogo" src="img/twitter.png">
+                    <a href="https://www.instagram.com/winter_programs/" target="_blank"> <img alt="instagram" class="smlogo" src="img/instagram.png">
+                    <a href="https://www.facebook.com/winteronline/" target="_blank"> <img alt="facebook" class="smlogo" src="img/facebook.png">
+            </div>
+          
+      </footer>
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script>
+
+        $(document).ready(function(){
+            $('#submenu').addClass('hidden');
+            $('#btn1').click(function(){
+                $('#submenu').toggleClass('shown');
+            });
+
+
+
+        $('#about_submenu').click(function(){
+              if($('#submenu1').css('display') === 'none'){
+                    $('#submenu1').slideDown(600);
+              }
+              else if ($('#submenu1').css('display') === 'block'){
+                    $('#submenu1').slideUp(600);
+              }
+        }); // end click
+          
+        $('#get_submenu').click(function(){
+            if($('#submenu2').css('display') === 'none'){
+                $('#submenu2').slideDown(600);
+            }
+            else if ($('#submenu2').css('display') === 'block'){
+                $('#submenu2').slideUp(600);
+            }
+        }); // end click
+
+        $('#experience_submenu').click(function(){
+            if($('#submenu3').css('display') === 'none'){
+                $('#submenu3').slideDown(600);
+            }
+            else if ($('#submenu3').css('display') === 'block'){
+                $('#submenu3').slideUp(600);
+            }
+        }); // end click
+
+        $('#news_submenu').click(function(){
+            if($('#submenu4').css('display') === 'none'){
+                $('#submenu4').slideDown(600);
+            }
+            else if ($('#submenu4').css('display') === 'block'){
+                $('#submenu4').slideUp(600);
+            }
+        }); // end click
+    }); 
+
+      </script>
+  
+  </body>
+</html>
